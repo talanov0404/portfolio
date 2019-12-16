@@ -1,0 +1,101 @@
+html {
+    box-sizing: border-box;
+    font-size: 10px;
+    min-height: 100vh;
+}
+*, *::after, *::before {
+    box-sizing: inherit;
+}
+html, body {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    font-size: 1.4rem;
+    font-weight: normal;
+    color: #434344;
+    background-color: #ffffff;
+}
+.page-wrapper {
+    width: 128rem;
+    margin: 0 auto;
+}
+.main_container {
+    display: block;
+    width: 1280px;
+}
+#mapid {
+    height: 700px;
+}
+.widjet {
+    position: relative;
+    height: 684px;
+    width: 300px;
+    margin-top: -700px;
+    z-index: 1000;
+    margin-left: 980px;
+    background-color: rgba(0,0,0,0.5);
+}
+.widjet label {
+    position: relative;
+    width: max-content;
+    background: #999;
+    color: #fff;
+    padding: 3px 20px;
+    border-radius: 5px 5px 0 0;
+    left: 5px;
+    top: 15px;
+}
+.widjet .form-group{
+    height: 80px;
+}
+.widjet .input-border {
+    position: relative;
+    margin: 0 5px;
+    padding: 10px;
+    background-color: #000000;
+    top: 18px;
+}
+.widjet input {
+    border: 0;
+    height: 21px;
+    padding-left: 10px;
+    border-radius: 2px;
+    position: relative;
+    width: 100%;
+    font-size: 15px;
+}
+.widjet button {
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+}
+.widjet #content {
+    max-height: 530px;
+    overflow-y: auto;
+}
+.widjet #searchresults {
+    padding: 10px;
+    background-color: #eeeeee;
+    border-radius: 2px;
+}
+.name {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 5px;
+    font-size: 15px;
+    color: #000000;
+}
+.result {
+    cursor: pointer
+}
+.result img {
+    float: right;
+}
+.highlight {
+    background-color: #D9E7F7;
+    border: 1px solid #9DB9E4;
+    border-radius: 2px;
+}
